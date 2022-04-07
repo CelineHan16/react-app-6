@@ -15,6 +15,7 @@ function App() {
   }
   const calculate = () => {
     try {
+      // eslint-disable-next-line
       setResult(eval(result).toString());
     } catch {
       setResult("Error")
